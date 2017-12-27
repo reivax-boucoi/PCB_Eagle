@@ -1,0 +1,7 @@
+-orientation chip
+- solder pads + longs pour chip
+- trous vias taille headers
+- clearances ++
+- texte pour orientation plaquette
+- confirmer taille pads pour resistances smd
+- 
