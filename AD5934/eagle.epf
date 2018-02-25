@@ -1,0 +1,39 @@
+<<<<<<< HEAD
+[Eagle]
+Version="08 04 00"
+Platform="Windows"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+
+[Win_1]
+Type="Control Panel"
+Loc="0 0 1365 704"
+State=1
+Number=0
+
+[Desktop]
+Screen="1366 768"
+Window="Win_1"
+=======
+[Eagle]
+Version="08 04 00"
+Platform="Windows"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+
+[Win_1]
+Type="Control Panel"
+Loc="0 0 1365 704"
+State=1
+Number=0
+
+[Desktop]
+Screen="1366 768"
+Window="Win_1"
+>>>>>>> c0adb4371b4d5cd4532d406017bfb34cbd30443e
