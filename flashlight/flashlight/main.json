@@ -1,0 +1,99 @@
+{
+    "EAGLE_version": "8.6.3",
+    "drill_data": {
+        "count": 2,
+        "drill_groups": [
+            {
+                "count": 2,
+                "drills": [
+                    {
+                        "diameter_mil": "40.000000",
+                        "diameter_mm": "1.016000",
+                        "drill_type": "PTH",
+                        "x_mil": "108.834646",
+                        "x_mm": "2.764400",
+                        "y_mil": "250.677165",
+                        "y_mm": "6.367200"
+                    },
+                    {
+                        "diameter_mil": "40.000000",
+                        "diameter_mm": "1.016000",
+                        "drill_type": "PTH",
+                        "x_mil": "-297.259843",
+                        "x_mm": "-7.550400",
+                        "y_mil": "34.377953",
+                        "y_mm": "0.873200"
+                    }
+                ],
+                "max_diameter_mil": "40.000000",
+                "max_diameter_mm": "1.016000",
+                "min_diameter_mil": "40.000000",
+                "min_diameter_mm": "1.016000"
+            },
+            {
+                "count": 6,
+                "drills": [
+                    {
+                        "diameter_mil": "32.000000",
+                        "diameter_mm": "0.812800",
+                        "drill_type": "PTH",
+                        "x_mil": "46.803150",
+                        "x_mm": "1.188800",
+                        "y_mil": "-182.771654",
+                        "y_mm": "-4.642400"
+                    },
+                    {
+                        "diameter_mil": "32.000000",
+                        "diameter_mm": "0.812800",
+                        "drill_type": "PTH",
+                        "x_mil": "-33.196850",
+                        "x_mm": "-0.843200",
+                        "y_mil": "-182.771654",
+                        "y_mm": "-4.642400"
+                    },
+                    {
+                        "diameter_mil": "32.000000",
+                        "diameter_mm": "0.812800",
+                        "drill_type": "PTH",
+                        "x_mil": "231.055118",
+                        "x_mm": "5.868800",
+                        "y_mil": "19.527559",
+                        "y_mm": "0.496000"
+                    },
+                    {
+                        "diameter_mil": "32.000000",
+                        "diameter_mm": "0.812800",
+                        "drill_type": "PTH",
+                        "x_mil": "231.055118",
+                        "x_mm": "5.868800",
+                        "y_mil": "-80.472441",
+                        "y_mm": "-2.044000"
+                    },
+                    {
+                        "diameter_mil": "32.000000",
+                        "diameter_mm": "0.812800",
+                        "drill_type": "PTH",
+                        "x_mil": "202.585261",
+                        "x_mm": "5.145666",
+                        "y_mil": "176.509104",
+                        "y_mm": "4.483331"
+                    },
+                    {
+                        "diameter_mil": "32.000000",
+                        "diameter_mm": "0.812800",
+                        "drill_type": "PTH",
+                        "x_mil": "202.585261",
+                        "x_mm": "5.145666",
+                        "y_mil": "276.509104",
+                        "y_mm": "7.023331"
+                    }
+                ],
+                "max_diameter_mil": "32.000000",
+                "max_diameter_mm": "0.812800",
+                "min_diameter_mil": "32.000000",
+                "min_diameter_mm": "0.812800"
+            }
+        ]
+    },
+    "timestamp": "2018-02-24T22:13:55Z"
+}

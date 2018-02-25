@@ -582,6 +582,7 @@ UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/WE-VD_5MM.lbr"
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/WE-VD_7MM.lbr"
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/WE-VE_ULC.lbr"
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/WE-VS.lbr"
+UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/micrel.lbr"
 
 [Win_1]
 Type="Control Panel"
