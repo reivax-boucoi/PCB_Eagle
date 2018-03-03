@@ -891,8 +891,8 @@
 <text x="-5.08" y="-5.08" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="DR0810">
-<pin name="P$1" x="-15.24" y="0" length="middle"/>
-<pin name="P$2" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="P$1" x="-15.24" y="0" length="middle" swaplevel="1"/>
+<pin name="P$2" x="15.24" y="0" length="middle" swaplevel="1" rot="R180"/>
 <wire x1="-10.16" y1="0" x2="-7.62" y2="2.54" width="0.254" layer="94" curve="-90"/>
 <wire x1="-7.62" y1="2.54" x2="-5.08" y2="0" width="0.254" layer="94" curve="-90"/>
 <wire x1="-5.08" y1="0" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-90"/>
@@ -1407,9 +1407,14 @@ single cathode, 13 mm</description>
 </deviceset>
 <deviceset name="DR0810">
 <gates>
+<gate name="G$1" symbol="DR0810" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="DR0810">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

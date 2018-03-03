@@ -157,7 +157,10 @@
 <board>
 <fusionsync huburn="a.cGVyc29uYWw6dWUyYTAwMWY0" projecturn="a.cGVyc29uYWw6dWUyYTAwMWY0IzIwMTgwMjI0MTE5NDczNTI2" f3durn="urn:adsk.wipprod:dm.lineage:dsdUDaOgQNKK-lQp3reFuA" pcbguid="7a00f936-7993-4154-b677-0f931884bb25" lastpulledtime="2018-02-24T22:37:59Z" lastsyncedchangeguid="8b58a660-1c0c-4f34-af95-4fac344789d3"/>
 <plain>
-<circle x="2.1" y="2.3" radius="10" width="0.254" layer="20"/>
+<wire x1="-11.4" y1="12.6" x2="14.5" y2="12.6" width="0.1524" layer="20"/>
+<wire x1="14.5" y1="12.6" x2="14.5" y2="-9.9" width="0.1524" layer="20"/>
+<wire x1="14.5" y1="-9.9" x2="-11.4" y2="-9.9" width="0.1524" layer="20"/>
+<wire x1="-11.4" y1="-9.9" x2="-11.4" y2="12.6" width="0.1524" layer="20"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
