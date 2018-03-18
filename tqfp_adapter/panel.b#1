@@ -3,7 +3,7 @@
 <eagle version="8.7.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -313,8 +313,6 @@
 <vertex x="84.7042" y="85.8248"/>
 <vertex x="79.1792" y="85.8248"/>
 </polygon>
-<text x="-43" y="69" size="1.778" layer="1">Add pin number</text>
-<text x="-43" y="64" size="1.778" layer="1">Add cutting lines</text>
 </plain>
 <libraries>
 <library name="cypress" urn="urn:adsk.eagle:library:206">
