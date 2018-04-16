@@ -1,5 +1,5 @@
 [Eagle]
-Version="08 07 00"
+Version="08 07 01"
 Platform="Windows"
 Globals="Globals"
 Desktop="Desktop"
@@ -436,6 +436,7 @@ UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/International_Rectifier_By_element14
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/Intersil_By_element14_Batch_1.lbr"
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/LTC_By_element14_Batch_1.lbr"
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/Maxim_By_element14_Batch_1.lbr"
+UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/Micrel_By_element14_Batch_1.lbr"
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/Microchip_By_element14_Batch_1.lbr"
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/Molex_By_element14_Batch_1.lbr"
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/Murata_By_element14_Batch_1.lbr"
