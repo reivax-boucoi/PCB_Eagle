@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.0.0*%
+%TF.CreationDate,2018-04-29T07:43:32Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Xavier Bourlot <xavier.bourlot@gmail.com>*%
+%TJ.B_ID,main*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,31.730000*%
+%TJ.B_Size_Y,28.245000*%
+M02*

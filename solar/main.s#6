@@ -496,6 +496,22 @@ W = angled&lt;p&gt;
 <wire x1="22.86" y1="20.32" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PLUS"/>
+<pinref part="U$2" gate="G$1" pin="PLUS"/>
+<wire x1="-22.86" y1="38.1" x2="-22.86" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="17.78" x2="-22.86" y2="0" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="0" x2="25.4" y2="0" width="0.1524" layer="91"/>
+<pinref part="SV3" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="SV4" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="10.16" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
+<junction x="25.4" y="10.16"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
