@@ -426,6 +426,13 @@ UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/Cirrus_Logic_By_element14_Batch_1.lb
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/Coiltronics_By_element14_Batch_1.lbr"
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/Cypress_By_element14_Batch_1.lbr"
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/Diodes_Inc_By_element14_Batch_1.lbr"
+UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/ET60S-00-24-04-X-VTX-GP.lbr"
+UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/ET60S-02-24-02-X-VP-GP.lbr"
+UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/ET60S-02-24-02-X-VTX-GP.lbr"
+UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/ET60T-00-24-04-X-RTX-GP-HS.lbr"
+UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/ET60T-02-24-02-X-RTX-GP-HS.lbr"
+UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/ET60T-02-24-02-X-RTX-GP.lbr"
+UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/ET60T-04-24-04-X-RTX-GP.lbr"
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/Epcos_By_element14_Batch_1.lbr"
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/FTDI_By_element14_Batch_1.lbr"
 UsedLibrary="D:/Documents/Eagle_7/LIBRARIES/Fairchild_By_element14_Batch_1.lbr"
@@ -592,5 +599,5 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1366 768"
+Screen="2646 1024"
 Window="Win_1"
