@@ -13932,7 +13932,7 @@ at 30/07/2012 12:23:11</description>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="ETR4" value="47u"/>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="47u"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIP-LED0603" value="red"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
@@ -13958,7 +13958,6 @@ at 30/07/2012 12:23:11</description>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1"/>
 <part name="U2" library="NSC_By_element14_Batch_1.1" deviceset="LM1117MP-3.3" device=""/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14027,7 +14026,6 @@ at 30/07/2012 12:23:11</description>
 <instance part="+3V8" gate="G$1" x="-157.48" y="78.74"/>
 <instance part="SV1" gate="1" x="127" y="78.74" rot="R180"/>
 <instance part="U2" gate="A" x="93.98" y="27.94"/>
-<instance part="GND2" gate="1" x="48.26" y="-5.08" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -14097,10 +14095,6 @@ at 30/07/2012 12:23:11</description>
 <wire x1="-152.4" y1="22.86" x2="-154.94" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-154.94" y="22.86"/>
 <junction x="-154.94" y="25.4"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="SHIELD"/>
-<pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$5" class="0">
