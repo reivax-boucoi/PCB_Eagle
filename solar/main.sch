@@ -18847,11 +18847,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="L1" library="7_segment_lib" library_urn="urn:adsk.eagle:library:1964360" deviceset="DO1813H" device="" package3d_urn="urn:adsk.eagle:package:1964424/3" value="10u"/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
-<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="R0" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1"/>
+<part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="200k"/>
+<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="470k"/>
+<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1.2M"/>
+<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="300k"/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -18899,11 +18899,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="SUPPLY4" gate="G$1" x="40.64" y="-17.78"/>
 <instance part="SUPPLY5" gate="G$1" x="27.94" y="-17.78"/>
 <instance part="L1" gate="G$1" x="106.68" y="27.94"/>
-<instance part="R1" gate="G$1" x="73.66" y="-15.24" rot="R90"/>
-<instance part="R2" gate="G$1" x="129.54" y="-20.32" rot="R90"/>
+<instance part="R0" gate="G$1" x="73.66" y="-15.24" rot="R90"/>
+<instance part="R4" gate="G$1" x="129.54" y="-20.32" rot="R90"/>
 <instance part="R3" gate="G$1" x="137.16" y="-12.7" rot="R180"/>
-<instance part="R4" gate="G$1" x="170.18" y="7.62" rot="R270"/>
-<instance part="R5" gate="G$1" x="170.18" y="-10.16" rot="R270"/>
+<instance part="R1" gate="G$1" x="170.18" y="7.62" rot="R270"/>
+<instance part="R2" gate="G$1" x="170.18" y="-10.16" rot="R270"/>
 <instance part="GND10" gate="1" x="170.18" y="-17.78"/>
 <instance part="GND11" gate="1" x="129.54" y="-27.94"/>
 <instance part="GND12" gate="1" x="73.66" y="-22.86"/>
@@ -18969,15 +18969,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R0" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -19067,7 +19067,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
 <pinref part="U$1" gate="G$1" pin="VOUT"/>
 <wire x1="134.62" y1="12.7" x2="124.46" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="12.7" x2="160.02" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="PAD1" gate="P" pin="P"/>
 <wire x1="160.02" y1="12.7" x2="170.18" y2="12.7" width="0.1524" layer="91"/>
@@ -19109,7 +19109,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="N$10" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="MPPC"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R0" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-2.54" x2="73.66" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
@@ -19119,7 +19119,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U$1" gate="G$1" pin="FBLDO"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="-12.7" x2="129.54" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="-12.7" x2="132.08" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="-15.24" x2="129.54" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="129.54" y="-12.7"/>
@@ -19142,8 +19142,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="2.54" x2="170.18" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="FB"/>
 <wire x1="124.46" y1="2.54" x2="170.18" y2="2.54" width="0.1524" layer="91"/>
