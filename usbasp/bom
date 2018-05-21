@@ -1,0 +1,38 @@
+Partlist
+
+Exported from USBasp.brd at 19/05/2018 20:09
+
+EAGLE Version 9.0.1 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package               Library                       Position (mil)        Orientation
+
+C1       47u            ETR4                  rcl                           (1692.5 935)          R90
+C2       4u7            E2,5-5                rcl                           (2563.10655 1151.46444) R135
+C3       100n           C0603                 rcl                           (2087.5 612.5)        R135
+C4       22p            C0603                 rcl                           (2312.5 475)          R90
+C5       22p            C0504                 rcl                           (2137.5 475)          R90
+D1       3V6            SOD80C                diode                         (1787.1966 1025.12549) R90
+D2       3V6            SOD80C                diode                         (1943.96444 637.5)    R315
+J1       USB_A_SMT_MALE USB-A-SMT-MALE        SparkFun-Connectors           (1212.5 950)          R0
+JP2      Self Pgrm      JP1                   jumper                        (2131.03543 1092.07099) R45
+JP3      Slow SCK       JP1                   jumper                        (2242.5 1172.5)       R45
+JP4                     1X02                  pinhead                       (2006.16105 1041.33883) R135
+LED1     green          CHIP-LED0603          led                           (2358.83883 1083.66105) R135
+LED2     red            CHIP-LED0603          led                           (2395 1047.5)         R135
+Q2       12MHz          HC49/S                crystal                       (2300 500)            R0
+R1       68             R0603                 rcl                           (1975.73216 774.26772) R45
+R2       68             R0603                 rcl                           (1899.6966 880.30327) R315
+R3       2k2            R0603                 rcl                           (1835 763.96444)      R45
+R4       1k             R0603                 rcl                           (2487.5 975)          R135
+R5       1k             R0603                 rcl                           (2547.5 1032.5)       R135
+R6       10k            R0603                 rcl                           (2598.53543 838.96444) R180
+R7       1k             R0603                 rcl                           (1958.66105 938.66117) R315
+R8       100            R0603                 rcl                           (2594.99988 542.07087) R0
+R9       100            R0603                 rcl                           (2606.46444 948.96444) R45
+R10      100            R0603                 rcl                           (2592.92889 741.46444) R0
+R11      100            R0603                 rcl                           (2595.90982 643.23204) R0
+SV1                     MA06-1                con-lstb                      (2725 692.5)          R90
+U1       ATMEGA8-16AU   QFP80P900X900X120-32N Atmel_By_element14_Batch_1-00 (2263.66117 805.65859) R45
+U2       LM1117MP-3.3   SOT230P696X180-4N     NSC_By_element14_Batch_1.1    (1739.4455 546.94537) R225
