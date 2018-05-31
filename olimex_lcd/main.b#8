@@ -773,9 +773,6 @@ design rules under a new name.</description>
 <signal name="_0C2A/PCINT15_PB7">
 <contactref element="IC1" pad="26"/>
 </signal>
-<signal name="DNC@5">
-<contactref element="IC1" pad="27"/>
-</signal>
 <signal name="RESET/PG5">
 <contactref element="IC1" pad="30"/>
 </signal>
@@ -790,42 +787,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="_TOSC1_XTAL1">
 <contactref element="IC1" pad="34"/>
-</signal>
-<signal name="_SEG18_PG0">
-<contactref element="IC1" pad="51"/>
-</signal>
-<signal name="_SEG17_PG1">
-<contactref element="IC1" pad="52"/>
-</signal>
-<signal name="_SEG16_PC0">
-<contactref element="IC1" pad="53"/>
-</signal>
-<signal name="_SEG15_PC1">
-<contactref element="IC1" pad="54"/>
-</signal>
-<signal name="_SEG14_PC2">
-<contactref element="IC1" pad="55"/>
-</signal>
-<signal name="_SEG13_PC3">
-<contactref element="IC1" pad="56"/>
-</signal>
-<signal name="_SEG12_PC4">
-<contactref element="IC1" pad="57"/>
-</signal>
-<signal name="_SEG11_PC5">
-<contactref element="IC1" pad="58"/>
-</signal>
-<signal name="_PCINT16/SEG10_PH0">
-<contactref element="IC1" pad="63"/>
-</signal>
-<signal name="_PCINT17/SEG9_PH1">
-<contactref element="IC1" pad="64"/>
-</signal>
-<signal name="_PCINT18/SEG8_PH2">
-<contactref element="IC1" pad="65"/>
-</signal>
-<signal name="_PCINT19/SEG7_PH3">
-<contactref element="IC1" pad="66"/>
 </signal>
 <signal name="VCC@2">
 <contactref element="IC1" pad="80"/>
@@ -865,42 +826,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="AVCC">
 <contactref element="IC1" pad="100"/>
-</signal>
-<signal name="8">
-<contactref element="LCD1" pad="P$8"/>
-</signal>
-<signal name="9">
-<contactref element="LCD1" pad="P$9"/>
-</signal>
-<signal name="10">
-<contactref element="LCD1" pad="P$10"/>
-</signal>
-<signal name="11">
-<contactref element="LCD1" pad="P$11"/>
-</signal>
-<signal name="12">
-<contactref element="LCD1" pad="P$12"/>
-</signal>
-<signal name="13">
-<contactref element="LCD1" pad="P$13"/>
-</signal>
-<signal name="14">
-<contactref element="LCD1" pad="P$14"/>
-</signal>
-<signal name="15">
-<contactref element="LCD1" pad="P$15"/>
-</signal>
-<signal name="16">
-<contactref element="LCD1" pad="P$16"/>
-</signal>
-<signal name="17">
-<contactref element="LCD1" pad="P$17"/>
-</signal>
-<signal name="18">
-<contactref element="LCD1" pad="P$18"/>
-</signal>
-<signal name="19">
-<contactref element="LCD1" pad="P$19"/>
 </signal>
 <signal name="20">
 <contactref element="LCD1" pad="P$20"/>
@@ -983,12 +908,14 @@ design rules under a new name.</description>
 <signal name="36">
 <contactref element="LCD1" pad="P$36"/>
 <contactref element="IC1" pad="14"/>
-<wire x1="93.21" y1="49.91" x2="93.85" y2="53.34" width="0" layer="19" extent="16-16"/>
+<wire x1="93.21" y1="49.91" x2="93.21" y2="52.7" width="0.3048" layer="16"/>
+<wire x1="93.21" y1="52.7" x2="93.85" y2="53.34" width="0.3048" layer="16"/>
 </signal>
 <signal name="37">
 <contactref element="LCD1" pad="P$37"/>
 <contactref element="IC1" pad="13"/>
-<wire x1="92.71" y1="49.91" x2="91.85" y2="53.34" width="0" layer="19" extent="16-16"/>
+<wire x1="92.71" y1="49.91" x2="92.71" y2="52.48" width="0.3048" layer="16"/>
+<wire x1="92.71" y1="52.48" x2="91.85" y2="53.34" width="0.3048" layer="16"/>
 </signal>
 <signal name="38">
 <contactref element="LCD1" pad="P$38"/>
@@ -1073,6 +1000,66 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="68"/>
 <contactref element="LCD1" pad="P$7"/>
 <wire x1="81.85" y1="27.94" x2="90.21" y2="33.91" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="8">
+<contactref element="IC1" pad="66"/>
+<contactref element="LCD1" pad="P$8"/>
+<wire x1="83.85" y1="27.94" x2="91.21" y2="33.91" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="9">
+<contactref element="IC1" pad="65"/>
+<contactref element="LCD1" pad="P$9"/>
+<wire x1="85.85" y1="27.94" x2="91.71" y2="33.91" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="10">
+<contactref element="IC1" pad="64"/>
+<contactref element="LCD1" pad="P$10"/>
+<wire x1="87.85" y1="27.94" x2="92.21" y2="33.91" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="11">
+<contactref element="IC1" pad="63"/>
+<contactref element="LCD1" pad="P$11"/>
+<wire x1="89.85" y1="27.94" x2="92.71" y2="33.91" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="12">
+<contactref element="IC1" pad="58"/>
+<contactref element="LCD1" pad="P$12"/>
+<wire x1="91.85" y1="27.94" x2="95.21" y2="33.91" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="13">
+<contactref element="IC1" pad="57"/>
+<contactref element="LCD1" pad="P$13"/>
+<wire x1="93.85" y1="27.94" x2="95.71" y2="33.91" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="14">
+<contactref element="IC1" pad="56"/>
+<contactref element="LCD1" pad="P$14"/>
+<wire x1="95.85" y1="27.94" x2="96.21" y2="33.91" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="15">
+<contactref element="IC1" pad="55"/>
+<contactref element="LCD1" pad="P$15"/>
+<wire x1="97.85" y1="27.94" x2="96.71" y2="33.91" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="16">
+<contactref element="IC1" pad="54"/>
+<contactref element="LCD1" pad="P$16"/>
+<wire x1="99.85" y1="27.94" x2="97.21" y2="33.91" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="17">
+<contactref element="IC1" pad="53"/>
+<contactref element="LCD1" pad="P$17"/>
+<wire x1="101.85" y1="27.94" x2="97.71" y2="33.91" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="18">
+<contactref element="IC1" pad="52"/>
+<contactref element="LCD1" pad="P$18"/>
+<wire x1="103.85" y1="27.94" x2="98.21" y2="33.91" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="19">
+<contactref element="IC1" pad="51"/>
+<contactref element="LCD1" pad="P$19"/>
+<wire x1="98.71" y1="33.91" x2="105.85" y2="27.94" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 </board>

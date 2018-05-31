@@ -830,10 +830,10 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="32"/>
 <contactref element="IC1" pad="99"/>
 <contactref element="IC1" pad="81"/>
-<wire x1="91.71" y1="50.418" x2="100.71" y2="45.418" width="0" layer="19" extent="16-16"/>
+<wire x1="91.71" y1="50.418" x2="86.4235" y2="58.6105" width="0" layer="19" extent="16-16"/>
 <wire x1="84.71" y1="47.918" x2="91.71" y2="50.418" width="0" layer="19" extent="16-16"/>
 <wire x1="84.71" y1="38.918" x2="84.71" y2="47.918" width="0" layer="19" extent="16-16"/>
-<wire x1="86.4235" y1="58.6105" x2="84.71" y2="38.918" width="0" layer="19" extent="16-16"/>
+<wire x1="100.71" y1="45.418" x2="91.71" y2="50.418" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="_SS/PCINT8_PB0">
 <contactref element="IC1" pad="19"/>
@@ -841,17 +841,17 @@ design rules under a new name.</description>
 <signal name="SCK">
 <contactref element="IC1" pad="20"/>
 <contactref element="SV1" pad="3"/>
-<wire x1="94.0435" y1="58.6105" x2="96.21" y2="50.418" width="0" layer="19" extent="16-16"/>
+<wire x1="96.21" y1="50.418" x2="94.0435" y2="58.6105" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="MOSI">
 <contactref element="IC1" pad="21"/>
 <contactref element="SV1" pad="2"/>
-<wire x1="96.5835" y1="58.6105" x2="96.71" y2="50.418" width="0" layer="19" extent="16-16"/>
+<wire x1="96.71" y1="50.418" x2="96.5835" y2="58.6105" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="MISO">
 <contactref element="IC1" pad="22"/>
 <contactref element="SV1" pad="1"/>
-<wire x1="99.1235" y1="58.6105" x2="97.21" y2="50.418" width="0" layer="19" extent="16-16"/>
+<wire x1="97.21" y1="50.418" x2="99.1235" y2="58.6105" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="_OC0A/PCINT12_PB4">
 <contactref element="IC1" pad="23"/>
@@ -868,7 +868,7 @@ design rules under a new name.</description>
 <signal name="RESET">
 <contactref element="IC1" pad="30"/>
 <contactref element="SV1" pad="4"/>
-<wire x1="91.5035" y1="58.6105" x2="100.71" y2="46.418" width="0" layer="19" extent="16-16"/>
+<wire x1="100.71" y1="46.418" x2="91.5035" y2="58.6105" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="XTAL1">
 <contactref element="IC1" pad="33"/>
