@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6933,8 +6933,6 @@ W = angled&lt;p&gt;
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
-<part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6964,13 +6962,11 @@ W = angled&lt;p&gt;
 <instance part="SV1" gate="1" x="-111.76" y="58.42" rot="R270"/>
 <instance part="SUPPLY4" gate="G$1" x="-48.26" y="50.8"/>
 <instance part="GND7" gate="1" x="-48.26" y="38.1"/>
-<instance part="C7" gate="G$1" x="5.08" y="-78.74"/>
-<instance part="GND8" gate="1" x="5.08" y="-86.36"/>
 </instances>
 <busses>
 <bus name="ISP:GND,MISO,MOSI,RESET,SCK,VCC">
 <segment>
-<wire x1="-139.7" y1="25.4" x2="-101.6" y2="25.4" width="0.762" layer="92"/>
+<wire x1="-137.16" y1="38.1" x2="-114.3" y2="38.1" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -7036,18 +7032,10 @@ W = angled&lt;p&gt;
 <wire x1="-119.38" y1="50.8" x2="-119.38" y2="40.64" width="0.1524" layer="91"/>
 <label x="-119.38" y="43.18" size="1.016" layer="95" rot="R90"/>
 <pinref part="SV1" gate="1" pin="1"/>
-<wire x1="-121.92" y1="27.94" x2="-119.38" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-119.38" y1="40.64" x2="-119.38" y2="27.94" width="0.1524" layer="91"/>
-<label x="-119.38" y="30.48" size="1.778" layer="95" rot="R90"/>
-<junction x="-119.38" y="40.64"/>
 </segment>
 <segment>
 <pinref part="QG1" gate="1" pin="GND"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C7" gate="G$1" pin="2"/>
-<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -7100,10 +7088,6 @@ W = angled&lt;p&gt;
 <wire x1="-106.68" y1="50.8" x2="-106.68" y2="40.64" width="0.1524" layer="91"/>
 <label x="-106.68" y="43.18" size="1.016" layer="95" rot="R90"/>
 <pinref part="SV1" gate="1" pin="6"/>
-<wire x1="-109.22" y1="27.94" x2="-106.68" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-106.68" y1="40.64" x2="-106.68" y2="27.94" width="0.1524" layer="91"/>
-<label x="-106.68" y="30.48" size="1.778" layer="95" rot="R90"/>
-<junction x="-106.68" y="40.64"/>
 </segment>
 <segment>
 <pinref part="QG1" gate="1" pin="VCC"/>
@@ -7140,10 +7124,6 @@ W = angled&lt;p&gt;
 <wire x1="-116.84" y1="50.8" x2="-116.84" y2="40.64" width="0.1524" layer="91"/>
 <label x="-116.84" y="43.18" size="1.016" layer="95" rot="R90"/>
 <pinref part="SV1" gate="1" pin="2"/>
-<wire x1="-119.38" y1="27.94" x2="-116.84" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-116.84" y1="40.64" x2="-116.84" y2="27.94" width="0.1524" layer="91"/>
-<label x="-116.84" y="30.48" size="1.778" layer="95" rot="R90"/>
-<junction x="-116.84" y="40.64"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -7152,10 +7132,6 @@ W = angled&lt;p&gt;
 <wire x1="-114.3" y1="50.8" x2="-114.3" y2="40.64" width="0.1524" layer="91"/>
 <label x="-114.3" y="43.18" size="1.016" layer="95" rot="R90"/>
 <pinref part="SV1" gate="1" pin="3"/>
-<wire x1="-116.84" y1="27.94" x2="-114.3" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-114.3" y1="40.64" x2="-114.3" y2="27.94" width="0.1524" layer="91"/>
-<label x="-114.3" y="30.48" size="1.778" layer="95" rot="R90"/>
-<junction x="-114.3" y="40.64"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -7164,15 +7140,6 @@ W = angled&lt;p&gt;
 <wire x1="-111.76" y1="50.8" x2="-111.76" y2="40.64" width="0.1524" layer="91"/>
 <label x="-111.76" y="43.18" size="1.016" layer="95" rot="R90"/>
 <pinref part="SV1" gate="1" pin="4"/>
-<wire x1="-114.3" y1="27.94" x2="-111.76" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="40.64" x2="-111.76" y2="27.94" width="0.1524" layer="91"/>
-<label x="-111.76" y="30.48" size="1.778" layer="95" rot="R90"/>
-<junction x="-111.76" y="40.64"/>
-</segment>
-<segment>
-<pinref part="U2" gate="A" pin="~RESET"/>
-<wire x1="-93.98" y1="-7.62" x2="-109.22" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-106.68" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -7181,10 +7148,6 @@ W = angled&lt;p&gt;
 <wire x1="-109.22" y1="50.8" x2="-109.22" y2="40.64" width="0.1524" layer="91"/>
 <label x="-109.22" y="43.18" size="1.016" layer="95" rot="R90"/>
 <pinref part="SV1" gate="1" pin="5"/>
-<wire x1="-111.76" y1="27.94" x2="-109.22" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-109.22" y1="40.64" x2="-109.22" y2="27.94" width="0.1524" layer="91"/>
-<label x="-109.22" y="30.48" size="1.778" layer="95" rot="R90"/>
-<junction x="-109.22" y="40.64"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -7193,304 +7156,6 @@ W = angled&lt;p&gt;
 <pinref part="U1" gate="A" pin="MCLK"/>
 <wire x1="-22.86" y1="45.72" x2="-22.86" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="7.62" x2="-17.78" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SCLK" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="SCLK"/>
-<wire x1="-17.78" y1="5.08" x2="-38.1" y2="5.08" width="0.1524" layer="91"/>
-<label x="-35.56" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="FSYNC" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="FSYNC"/>
-<wire x1="-17.78" y1="0" x2="-38.1" y2="0" width="0.1524" layer="91"/>
-<label x="-35.56" y="0" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="CAP/2.5V" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="CAP/2.5V"/>
-<wire x1="-17.78" y1="-2.54" x2="-38.1" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-35.56" y="-2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="5.08" y1="-76.2" x2="5.08" y2="-55.88" width="0.1524" layer="91"/>
-<label x="2.54" y="-58.42" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
-<net name="INTERRUPT" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="INTERRUPT"/>
-<wire x1="-17.78" y1="-5.08" x2="-38.1" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-35.56" y="-5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="CTRL" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="CTRL"/>
-<wire x1="-17.78" y1="-7.62" x2="-38.1" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-35.56" y="-7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="STANDBY" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="STANDBY"/>
-<wire x1="-17.78" y1="-10.16" x2="-38.1" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-35.56" y="-10.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="COMP" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="COMP"/>
-<wire x1="-17.78" y1="-12.7" x2="-38.1" y2="-12.7" width="0.1524" layer="91"/>
-<label x="-35.56" y="-12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SDATA" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="SDATA"/>
-<wire x1="-17.78" y1="-15.24" x2="-38.1" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-35.56" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VOUT" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="VOUT"/>
-<wire x1="17.78" y1="15.24" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
-<label x="35.56" y="15.24" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="MSBOUT" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="MSBOUT"/>
-<wire x1="17.78" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
-<label x="35.56" y="12.7" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="SYNCOUT" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="SYNCOUT"/>
-<wire x1="17.78" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
-<label x="35.56" y="10.16" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="D-" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="D-"/>
-<wire x1="-93.98" y1="0" x2="-109.22" y2="0" width="0.1524" layer="91"/>
-<label x="-106.68" y="0" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D+" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="D+"/>
-<wire x1="-93.98" y1="-2.54" x2="-109.22" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-106.68" y="-2.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AREF" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="AREF"/>
-<wire x1="-93.98" y1="-5.08" x2="-109.22" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-106.68" y="-5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="UCAP" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="UCAP"/>
-<wire x1="-93.98" y1="-12.7" x2="-109.22" y2="-12.7" width="0.1524" layer="91"/>
-<label x="-106.68" y="-12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VBUS" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="VBUS"/>
-<wire x1="-93.98" y1="-15.24" x2="-109.22" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-106.68" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PF0" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PF0"/>
-<wire x1="-93.98" y1="-20.32" x2="-109.22" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-106.68" y="-20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PF1" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PF1"/>
-<wire x1="-93.98" y1="-22.86" x2="-109.22" y2="-22.86" width="0.1524" layer="91"/>
-<label x="-106.68" y="-22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PF4" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PF4"/>
-<wire x1="-93.98" y1="-25.4" x2="-109.22" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-106.68" y="-25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PF5" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PF5"/>
-<wire x1="-93.98" y1="-27.94" x2="-109.22" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-106.68" y="-27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PF6" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PF6"/>
-<wire x1="-93.98" y1="-30.48" x2="-109.22" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-106.68" y="-30.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PF7" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PF7"/>
-<wire x1="-93.98" y1="-33.02" x2="-109.22" y2="-33.02" width="0.1524" layer="91"/>
-<label x="-106.68" y="-33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PB0" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PB0"/>
-<wire x1="-58.42" y1="15.24" x2="-43.18" y2="15.24" width="0.1524" layer="91"/>
-<label x="-45.72" y="15.24" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PB1" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PB1"/>
-<wire x1="-58.42" y1="12.7" x2="-43.18" y2="12.7" width="0.1524" layer="91"/>
-<label x="-45.72" y="12.7" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PB2" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PB2"/>
-<wire x1="-58.42" y1="10.16" x2="-43.18" y2="10.16" width="0.1524" layer="91"/>
-<label x="-45.72" y="10.16" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PB3" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PB3"/>
-<wire x1="-58.42" y1="7.62" x2="-43.18" y2="7.62" width="0.1524" layer="91"/>
-<label x="-45.72" y="7.62" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PB4" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PB4"/>
-<wire x1="-58.42" y1="5.08" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
-<label x="-45.72" y="5.08" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PB5" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PB5"/>
-<wire x1="-58.42" y1="2.54" x2="-43.18" y2="2.54" width="0.1524" layer="91"/>
-<label x="-45.72" y="2.54" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PB6" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PB6"/>
-<wire x1="-58.42" y1="0" x2="-43.18" y2="0" width="0.1524" layer="91"/>
-<label x="-45.72" y="0" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PB7" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PB7"/>
-<wire x1="-58.42" y1="-2.54" x2="-43.18" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-45.72" y="-2.54" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PC6" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PC6"/>
-<wire x1="-58.42" y1="-7.62" x2="-43.18" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-45.72" y="-7.62" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PC7" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PC7"/>
-<wire x1="-58.42" y1="-10.16" x2="-43.18" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-45.72" y="-10.16" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PD0" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PD0"/>
-<wire x1="-58.42" y1="-15.24" x2="-43.18" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-45.72" y="-15.24" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PD1" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PD1"/>
-<wire x1="-58.42" y1="-17.78" x2="-43.18" y2="-17.78" width="0.1524" layer="91"/>
-<label x="-45.72" y="-17.78" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PD2" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PD2"/>
-<wire x1="-58.42" y1="-20.32" x2="-43.18" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-45.72" y="-20.32" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PD3" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PD3"/>
-<wire x1="-58.42" y1="-22.86" x2="-43.18" y2="-22.86" width="0.1524" layer="91"/>
-<label x="-45.72" y="-22.86" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PD4" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PD4"/>
-<wire x1="-58.42" y1="-25.4" x2="-43.18" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-45.72" y="-25.4" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PD5" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PD5"/>
-<wire x1="-58.42" y1="-27.94" x2="-43.18" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-45.72" y="-27.94" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PD6" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PD6"/>
-<wire x1="-58.42" y1="-30.48" x2="-43.18" y2="-30.48" width="0.1524" layer="91"/>
-<label x="-45.72" y="-30.48" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PD7" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PD7"/>
-<wire x1="-58.42" y1="-33.02" x2="-43.18" y2="-33.02" width="0.1524" layer="91"/>
-<label x="-45.72" y="-33.02" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PE2" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PE2"/>
-<wire x1="-58.42" y1="-38.1" x2="-43.18" y2="-38.1" width="0.1524" layer="91"/>
-<label x="-45.72" y="-38.1" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PE6" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PE6"/>
-<wire x1="-58.42" y1="-40.64" x2="-43.18" y2="-40.64" width="0.1524" layer="91"/>
-<label x="-45.72" y="-40.64" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>
@@ -7519,11 +7184,6 @@ Since Version 8.4, EAGLE supports properties for SPICE simulation.
 Probes in schematics and SPICE mapping objects found in parts and library devices
 will not be understood with this version. Update EAGLE to the latest version
 for full support of SPICE simulation. 
-</note>
-<note version="9.0" severity="warning">
-Since Version 9.0, EAGLE supports the align property for labels. 
-Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
-for full support of labels. 
 </note>
 </compatibility>
 </eagle>
