@@ -191,11 +191,32 @@
 <wire x1="14" y1="2" x2="14" y2="-2" width="0.127" layer="21"/>
 <wire x1="14" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
 </package>
+<package name="2,54/1,0" urn="urn:adsk.eagle:footprint:1964565/1" library_version="40" library_locally_modified="yes">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="0.762" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-0.762" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-0.762" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.016" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="2.54" shape="octagon"/>
+<text x="-1.27" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="1" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="KBP205G" urn="urn:adsk.eagle:package:6702032/1" locally_modified="yes" type="box" library_version="40" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="KBP205G"/>
+</packageinstances>
+</package3d>
+<package3d name="2,54/1,0" urn="urn:adsk.eagle:package:1964566/3" type="box" library_version="40" library_locally_modified="yes">
+<description>THROUGH-HOLE PAD</description>
+<packageinstances>
+<packageinstance name="2,54/1,0"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -272,6 +293,13 @@
 <pin name="AC@2" x="-2.54" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1"/>
 <pin name="+" x="-10.16" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
+<symbol name="PAD" urn="urn:adsk.eagle:symbol:1964564/1" library_version="40" library_locally_modified="yes">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="835-1A_RELAY12V" library_version="39" library_locally_modified="yes">
@@ -306,6 +334,25 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:6702032/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2,54/1,0" urn="urn:adsk.eagle:component:1964567/10" prefix="PAD" uservalue="yes" library_version="40" library_locally_modified="yes">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<gates>
+<gate name="P" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2,54/1,0">
+<connects>
+<connect gate="P" pin="P" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1964566/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -19789,12 +19836,11 @@ Source: www.kingbright.com</description>
 </class>
 </classes>
 <parts>
-<part name="POWER" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="SW" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
 <part name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/1" technology="12"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100u"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100n"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100n"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100u"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100n"/>
@@ -19819,23 +19865,21 @@ Source: www.kingbright.com</description>
 <part name="SV1" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA10-2" device="" package3d_urn="urn:adsk.eagle:package:8331/1"/>
 <part name="T1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2222" device="" package3d_urn="urn:adsk.eagle:package:6240647/1"/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1"/>
 <part name="U$3" library="7_segment_lib" library_urn="urn:adsk.eagle:library:1964360" deviceset="835-1A_RELAY12V" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="12V" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="500"/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="PAD1" library="7_segment_lib" library_urn="urn:adsk.eagle:library:1964360" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:1964566/3"/>
+<part name="PAD2" library="7_segment_lib" library_urn="urn:adsk.eagle:library:1964360" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:1964566/3"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="POWER" gate="G$1" x="-137.16" y="-66.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="-130.81" y="-71.755" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-130.81" y="-60.96" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="SW" gate="G$1" x="7.62" y="-45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.97" y="-51.435" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="13.97" y="-40.64" size="1.778" layer="96" rot="R180"/>
@@ -19966,16 +20010,24 @@ Source: www.kingbright.com</description>
 <instance part="GND6" gate="1" x="137.16" y="-73.66" smashed="yes">
 <attribute name="VALUE" x="137.16" y="-73.914" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="LED1" gate="G$1" x="121.92" y="-40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="126.492" y="-37.084" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="126.492" y="-34.925" size="1.778" layer="96" rot="R180"/>
+<instance part="LED1" gate="G$1" x="91.44" y="-43.18" smashed="yes">
+<attribute name="NAME" x="94.996" y="-47.752" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="97.155" y="-47.752" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R5" gate="G$1" x="129.54" y="-45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="128.0414" y="-49.53" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="132.842" y="-49.53" size="1.778" layer="96" rot="R90"/>
+<instance part="R5" gate="G$1" x="91.44" y="-53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="89.9414" y="-57.15" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="94.742" y="-57.15" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND7" gate="1" x="129.54" y="-53.34" smashed="yes">
-<attribute name="VALUE" x="129.54" y="-53.594" size="1.778" layer="96" align="top-center"/>
+<instance part="GND7" gate="1" x="91.44" y="-60.96" smashed="yes">
+<attribute name="VALUE" x="91.44" y="-61.214" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="PAD1" gate="P" x="218.44" y="-63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="216.5858" y="-64.643" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="221.742" y="-64.643" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="PAD2" gate="P" x="218.44" y="-38.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="220.2942" y="-36.957" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="215.138" y="-36.957" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -20111,13 +20163,11 @@ Source: www.kingbright.com</description>
 <pinref part="U$2" gate="G$1" pin="AC@2"/>
 <wire x1="-119.38" y1="-60.96" x2="-127" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="-127" y1="-60.96" x2="-127" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="POWER" gate="G$1" pin="2"/>
 <wire x1="-127" y1="-66.04" x2="-134.62" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="POWER" gate="G$1" pin="1"/>
 <wire x1="-134.62" y1="-68.58" x2="-127" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="-127" y1="-68.58" x2="-127" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-127" y1="-73.66" x2="-109.22" y2="-73.66" width="0.1524" layer="91"/>
@@ -20188,8 +20238,11 @@ Source: www.kingbright.com</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="Q14"/>
-<wire x1="50.8" y1="-40.64" x2="93.98" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="-40.64" x2="91.44" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="A" pin="P1"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="91.44" y1="-40.64" x2="93.98" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="91.44" y="-40.64"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -20318,13 +20371,18 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="127" y1="-40.64" x2="129.54" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="Q4"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="U$3" gate="G$1" pin="NO"/>
+<pinref part="PAD1" gate="P" pin="P"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="MAIN"/>
+<pinref part="PAD2" gate="P" pin="P"/>
 </segment>
 </net>
 </nets>
@@ -20337,9 +20395,9 @@ Source: www.kingbright.com</description>
 <approved hash="104,1,0,-58.42,IC3P,VDD,12V,,,"/>
 <approved hash="104,1,7.62,-73.66,IC4P,VSS,GND,,,"/>
 <approved hash="104,1,7.62,-58.42,IC4P,VDD,12V,,,"/>
-<approved hash="113,1,-134.857,-68.8061,POWER,,,,,"/>
 <approved hash="113,1,9.92293,-48.4861,SW,,,,,"/>
-<approved hash="113,1,175.26,-58.1304,SV1,,,,,"/>
+<approved hash="113,1,182.88,-58.1304,SV1,,,,,"/>
+<approved hash="113,1,91.7617,-44.45,LED1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
