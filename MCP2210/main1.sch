@@ -10658,7 +10658,7 @@ W = angled&lt;p&gt;
 </classes>
 <parts>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="USB_A" device="_SMT_MALE" package3d_urn="urn:adsk.eagle:package:38305/1"/>
-<part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49U-V" package3d_urn="urn:adsk.eagle:package:12075/1" value="12MHz"/>
+<part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="SM49" package3d_urn="urn:adsk.eagle:package:12085/1" value="12MHz"/>
 <part name="U$1" library="7_segment_lib" library_urn="urn:adsk.eagle:library:1964360" deviceset="MCP2210" device="" package3d_urn="urn:adsk.eagle:package:7942598/1"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22p"/>
@@ -10724,18 +10724,20 @@ W = angled&lt;p&gt;
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="N+" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="D+"/>
 <pinref part="U$1" gate="G$1" pin="D+"/>
 <wire x1="15.24" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
+<label x="17.78" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N-" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="D-"/>
 <pinref part="J1" gate="G$1" pin="D-"/>
 <wire x1="45.72" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
+<label x="17.78" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
