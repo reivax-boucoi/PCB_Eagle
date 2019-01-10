@@ -10724,7 +10724,7 @@ W = angled&lt;p&gt;
 <busses>
 </busses>
 <nets>
-<net name="N+" class="0">
+<net name="N_P" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="D+"/>
 <pinref part="U$1" gate="G$1" pin="D+"/>
@@ -10732,7 +10732,7 @@ W = angled&lt;p&gt;
 <label x="17.78" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N-" class="0">
+<net name="N_N" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="D-"/>
 <pinref part="J1" gate="G$1" pin="D-"/>
