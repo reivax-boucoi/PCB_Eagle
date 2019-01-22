@@ -12139,6 +12139,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="DACA"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="139.7" y1="15.24" x2="154.94" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
