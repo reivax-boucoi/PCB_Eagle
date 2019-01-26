@@ -11192,7 +11192,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="100n"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="U$2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MCP4921" device="" package3d_urn="urn:adsk.eagle:package:6240674/1"/>
-<part name="POT" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1"/>
+<part name="POT" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" value="10k"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -11234,7 +11234,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10n"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100k"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="22k"/>
-<part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49S" package3d_urn="urn:adsk.eagle:package:12071/1"/>
+<part name="Q1" library="crystal" library_urn="urn:adsk.eagle:library:204" deviceset="CRYSTAL" device="HC49S" package3d_urn="urn:adsk.eagle:package:12071/1" value="16MHz"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="22p"/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="22p"/>
 <part name="GND18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -11242,14 +11242,14 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="100n"/>
 <part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1"/>
 <part name="S2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" package3d_urn="urn:adsk.eagle:package:40163/1"/>
-<part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="470"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="470"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="470"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="470"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="1k"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="100n"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="050-025X075" package3d_urn="urn:adsk.eagle:package:23637/1" value="100n"/>
+<part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
+<part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11387,7 +11387,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="VALUE" x="124.46" y="35.814" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="-10.16" y="43.18" smashed="yes">
-<attribute name="VALUE" x="-10.16" y="45.974" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="VALUE" x="-15.24" y="45.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY10" gate="G$1" x="2.54" y="-55.88" smashed="yes">
 <attribute name="VALUE" x="2.54" y="-53.086" size="1.778" layer="96" align="bottom-center"/>
@@ -11447,19 +11447,19 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </instance>
 <instance part="R8" gate="G$1" x="-2.54" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="-4.0386" y="44.45" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="0.762" y="44.45" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-4.318" y="49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="Q1" gate="G$1" x="-12.7" y="17.78" smashed="yes">
-<attribute name="NAME" x="-10.16" y="18.796" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-10.16" y="15.24" size="1.778" layer="96"/>
+<attribute name="NAME" x="-12.7" y="13.716" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-15.24" y="20.32" size="1.778" layer="96"/>
 </instance>
 <instance part="C6" gate="G$1" x="-7.62" y="15.24" smashed="yes">
 <attribute name="NAME" x="-6.604" y="15.875" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-6.604" y="11.049" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="-17.78" y="15.24" smashed="yes">
-<attribute name="NAME" x="-16.764" y="15.875" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-16.764" y="11.049" size="1.778" layer="96"/>
+<attribute name="NAME" x="-21.844" y="15.875" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-21.844" y="11.049" size="1.778" layer="96"/>
 </instance>
 <instance part="GND18" gate="1" x="-17.78" y="7.62" smashed="yes">
 <attribute name="VALUE" x="-17.78" y="7.366" size="1.778" layer="96" align="top-center"/>
@@ -11479,35 +11479,35 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="NAME" x="100.076" y="-58.42" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="102.108" y="-58.42" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND20" gate="1" x="88.9" y="-76.2" smashed="yes">
-<attribute name="VALUE" x="88.9" y="-76.454" size="1.778" layer="96" align="top-center"/>
+<instance part="R9" gate="G$1" x="78.74" y="-45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.2414" y="-49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="82.042" y="-49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND21" gate="1" x="101.6" y="-76.2" smashed="yes">
-<attribute name="VALUE" x="101.6" y="-76.454" size="1.778" layer="96" align="top-center"/>
+<instance part="R10" gate="G$1" x="111.76" y="-45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="110.2614" y="-49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="115.062" y="-49.53" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R9" gate="G$1" x="88.9" y="-45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.4014" y="-49.53" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="92.202" y="-49.53" size="1.778" layer="96" rot="R90"/>
+<instance part="R11" gate="G$1" x="106.68" y="-53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="110.49" y="-54.8386" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="107.95" y="-50.038" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R10" gate="G$1" x="101.6" y="-45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="100.1014" y="-49.53" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="104.902" y="-49.53" size="1.778" layer="96" rot="R90"/>
+<instance part="R12" gate="G$1" x="83.82" y="-53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="87.63" y="-54.8386" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="87.63" y="-50.038" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R11" gate="G$1" x="116.84" y="-53.34" smashed="yes" rot="R180">
-<attribute name="NAME" x="120.65" y="-54.8386" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="120.65" y="-50.038" size="1.778" layer="96" rot="R180"/>
+<instance part="C8" gate="G$1" x="78.74" y="-63.5" smashed="yes">
+<attribute name="NAME" x="79.756" y="-62.865" size="1.778" layer="95"/>
+<attribute name="VALUE" x="79.756" y="-67.691" size="1.778" layer="96"/>
 </instance>
-<instance part="R12" gate="G$1" x="78.74" y="-53.34" smashed="yes" rot="R180">
-<attribute name="NAME" x="82.55" y="-54.8386" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="82.55" y="-50.038" size="1.778" layer="96" rot="R180"/>
+<instance part="C9" gate="G$1" x="111.76" y="-63.5" smashed="yes">
+<attribute name="NAME" x="112.776" y="-62.865" size="1.778" layer="95"/>
+<attribute name="VALUE" x="112.776" y="-67.691" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="76.2" y="-63.5" smashed="yes">
-<attribute name="NAME" x="77.216" y="-62.865" size="1.778" layer="95"/>
-<attribute name="VALUE" x="77.216" y="-67.691" size="1.778" layer="96"/>
+<instance part="SUPPLY15" gate="G$1" x="96.52" y="-40.64" smashed="yes">
+<attribute name="VALUE" x="96.52" y="-37.846" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C9" gate="G$1" x="121.92" y="-63.5" smashed="yes">
-<attribute name="NAME" x="122.936" y="-62.865" size="1.778" layer="95"/>
-<attribute name="VALUE" x="122.936" y="-67.691" size="1.778" layer="96"/>
+<instance part="GND20" gate="1" x="93.98" y="-76.2" smashed="yes">
+<attribute name="VALUE" x="93.98" y="-76.454" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11640,6 +11640,24 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="-63.5" x2="88.9" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="-73.66" x2="78.74" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-73.66" x2="78.74" y2="-68.58" width="0.1524" layer="91"/>
+<junction x="88.9" y="-73.66"/>
+<pinref part="S2" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="-73.66" x2="101.6" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="-68.58" x2="111.76" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-73.66" x2="101.6" y2="-73.66" width="0.1524" layer="91"/>
+<junction x="101.6" y="-73.66"/>
+<wire x1="88.9" y1="-73.66" x2="93.98" y2="-73.66" width="0.1524" layer="91"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="93.98" y1="-73.66" x2="101.6" y2="-73.66" width="0.1524" layer="91"/>
+<junction x="93.98" y="-73.66"/>
+</segment>
 </net>
 <net name="V_BATT" class="0">
 <segment>
@@ -11704,6 +11722,14 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="CH1" gate="G$1" pin="BAT"/>
 <pinref part="SUPPLY7" gate="G$1" pin="V_BATT"/>
 <wire x1="-139.7" y1="40.64" x2="-134.62" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-40.64" x2="96.52" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="SUPPLY15" gate="G$1" pin="V_BATT"/>
+<wire x1="96.52" y1="-40.64" x2="111.76" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="96.52" y="-40.64"/>
 </segment>
 </net>
 <net name="LED" class="0">
@@ -11998,6 +12024,15 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="50.8" y1="7.62" x2="55.88" y2="7.62" width="0.1524" layer="91"/>
 <label x="55.88" y="7.62" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="-60.96" x2="78.74" y2="-53.34" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-53.34" x2="78.74" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="78.74" y="-53.34"/>
+<label x="78.74" y="-53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BTN_NEXT" class="0">
 <segment>
@@ -12005,10 +12040,42 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="50.8" y1="10.16" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
 <label x="55.88" y="10.16" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="-60.96" x2="111.76" y2="-53.34" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="-53.34" x2="111.76" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="111.76" y="-53.34"/>
+<label x="111.76" y="-53.34" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="S2" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="S1" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+</segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,124.46,33.02,VDD,V_BATT,,,,"/>
+<approved hash="102,1,124.46,-2.54,AVSS,GND,,,,"/>
+<approved hash="113,1,-58.1829,58.6156,BATT,,,,,"/>
+<approved hash="113,1,-88.9423,28.1991,ISP,,,,,"/>
+<approved hash="113,1,-55.9223,35.8191,OLED,,,,,"/>
+<approved hash="113,1,-55.9223,10.4191,SD,,,,,"/>
+<approved hash="113,1,-55.9223,-13.7109,UART,,,,,"/>
+<approved hash="113,1,-153.67,48.26,CH1,,,,,"/>
+<approved hash="113,1,198.357,7.81558,OUT,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
