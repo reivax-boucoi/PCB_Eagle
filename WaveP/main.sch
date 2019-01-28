@@ -11501,9 +11501,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="NAME" x="82.55" y="-54.8386" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="82.55" y="-50.038" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C8" gate="G$1" x="73.66" y="-63.5" smashed="yes">
-<attribute name="NAME" x="74.676" y="-62.865" size="1.778" layer="95"/>
-<attribute name="VALUE" x="74.676" y="-67.691" size="1.778" layer="96"/>
+<instance part="C8" gate="G$1" x="76.2" y="-63.5" smashed="yes">
+<attribute name="NAME" x="77.216" y="-62.865" size="1.778" layer="95"/>
+<attribute name="VALUE" x="77.216" y="-67.691" size="1.778" layer="96"/>
 </instance>
 <instance part="C9" gate="G$1" x="121.92" y="-63.5" smashed="yes">
 <attribute name="NAME" x="122.936" y="-62.865" size="1.778" layer="95"/>
