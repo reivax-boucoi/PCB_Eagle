@@ -21928,6 +21928,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="NAME" x="-57.277" y="54.0258" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-54.737" y="59.182" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="X1" gate="S" x="-114.3" y="-10.16" smashed="yes">
+<attribute name="NAME" x="-113.03" y="-11.43" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21968,6 +21971,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="X1" gate="G41" pin="5"/>
 <wire x1="-106.68" y1="-15.24" x2="-109.22" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="-109.22" y="-15.24"/>
+<pinref part="X1" gate="S" pin="S1"/>
+<wire x1="-116.84" y1="-12.7" x2="-114.3" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="-109.22" y="-12.7"/>
+<wire x1="-114.3" y1="-12.7" x2="-109.22" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="-12.7" x2="-109.22" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="-114.3" y="-12.7"/>
+<pinref part="X1" gate="S" pin="S2"/>
 </segment>
 <segment>
 <pinref part="UART" gate="G$1" pin="1"/>
@@ -22633,17 +22643,18 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <approved hash="102,1,124.46,-2.54,AVSS,GND,,,,"/>
 <approved hash="104,1,195.58,25.4,U2,V+,VCC,,,"/>
 <approved hash="104,1,195.58,10.16,U2,V-,GND,,,"/>
-<approved hash="113,1,-58.1829,58.6461,BATT,,,,,"/>
 <approved hash="113,1,-88.9423,28.2296,ISP,,,,,"/>
 <approved hash="113,1,-55.9223,-13.6804,UART,,,,,"/>
 <approved hash="113,1,-153.67,48.26,CH1,,,,,"/>
 <approved hash="113,1,226.297,5.30606,OUT,,,,,"/>
 <approved hash="113,1,-61.3182,7.33044,SV1,,,,,"/>
 <approved hash="113,1,-55.9223,35.8496,SV2,,,,,"/>
-<approved hash="113,1,53.6617,-57.15,LED1,,,,,"/>
-<approved hash="113,1,61.2817,-57.15,LED2,,,,,"/>
-<approved hash="113,1,-115.57,50.4783,LED3,,,,,"/>
-<approved hash="113,1,-115.57,42.8583,LED4,,,,,"/>
+<approved hash="113,1,53.6617,-52.07,LED1,,,,,"/>
+<approved hash="113,1,61.2817,-52.07,LED2,,,,,"/>
+<approved hash="113,1,-110.49,50.4783,LED3,,,,,"/>
+<approved hash="113,1,-107.95,45.3983,LED4,,,,,"/>
+<approved hash="113,1,-58.5353,59.3894,BAT+,,,,,"/>
+<approved hash="113,1,-58.5353,54.6125,BAT-,,,,,"/>
 </errors>
 </schematic>
 </drawing>
