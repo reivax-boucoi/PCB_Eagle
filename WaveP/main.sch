@@ -1146,21 +1146,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/1503_09.pdf</description>
 <wire x1="-4" y1="-6.5" x2="-4" y2="1.5" width="0.127" layer="21"/>
 <text x="0" y="-4" size="1.27" layer="21" align="center">&gt;NAME</text>
 </package>
-<package name="2,54/1,0" urn="urn:adsk.eagle:footprint:1964565/1" library_version="47" library_locally_modified="yes">
-<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.27" x2="0.762" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="-0.762" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.27" x2="1.27" y2="-0.762" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="1.016" width="0.1524" layer="51"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="2.54" shape="octagon"/>
-<text x="-1.27" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="1" size="0.0254" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="SOP8" urn="urn:adsk.eagle:package:1964414/1" type="box" library_version="46" library_locally_modified="yes">
@@ -1177,12 +1162,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/1503_09.pdf</description>
 <package3d name="MA04-1" urn="urn:adsk.eagle:package:8635748/1" type="box" library_version="47">
 <packageinstances>
 <packageinstance name="OLED"/>
-</packageinstances>
-</package3d>
-<package3d name="2,54/1,0" urn="urn:adsk.eagle:package:1964566/3" type="box" library_version="47" library_locally_modified="yes">
-<description>THROUGH-HOLE PAD</description>
-<packageinstances>
-<packageinstance name="2,54/1,0"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1282,13 +1261,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/1503_09.pdf</description>
 <pin name="COM" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="NO" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="NC" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="PAD" urn="urn:adsk.eagle:symbol:1964564/1" library_version="47" library_locally_modified="yes">
-<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
-<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1415,25 +1387,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/1503_09.pdf</description>
 <connect gate="G$1" pin="NC" pad="NC"/>
 <connect gate="G$1" pin="NO" pad="NO"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="2,54/1,0" urn="urn:adsk.eagle:component:1964567/10" prefix="PAD" uservalue="yes" library_version="47" library_locally_modified="yes">
-<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<gates>
-<gate name="P" symbol="PAD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="2,54/1,0">
-<connects>
-<connect gate="P" pin="P" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1964566/3"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -21594,8 +21547,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/5" package3d_urn="urn:adsk.eagle:package:23488/1" value="0"/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
-<part name="BAT+" library="7_segment_lib" library_urn="urn:adsk.eagle:library:1964360" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:1964566/3"/>
-<part name="BAT-" library="7_segment_lib" library_urn="urn:adsk.eagle:library:1964360" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:1964566/3"/>
+<part name="BAT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -21920,16 +21872,12 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="SUPPLY21" gate="G$1" x="-48.26" y="58.42" smashed="yes">
 <attribute name="VALUE" x="-48.26" y="61.214" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="BAT+" gate="P" x="-55.88" y="58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="-57.277" y="61.6458" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-54.737" y="61.722" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="BAT-" gate="P" x="-55.88" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="-57.277" y="54.0258" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-54.737" y="59.182" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="X1" gate="S" x="-114.3" y="-10.16" smashed="yes">
 <attribute name="NAME" x="-113.03" y="-11.43" size="1.778" layer="95"/>
+</instance>
+<instance part="BAT" gate="G$1" x="-55.88" y="55.88" smashed="yes">
+<attribute name="NAME" x="-62.23" y="61.595" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-62.23" y="50.8" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -22013,7 +21961,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="-58.42" y1="55.88" x2="-68.58" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="BAT-" gate="P" pin="P"/>
+<pinref part="BAT" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -22115,7 +22063,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="SUPPLY1" gate="G$1" pin="V_BATT"/>
 <wire x1="-58.42" y1="58.42" x2="-68.58" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="58.42" x2="-68.58" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="BAT+" gate="P" pin="P"/>
+<pinref part="BAT" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="CH1" gate="G$1" pin="BAT"/>
@@ -22653,8 +22601,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <approved hash="113,1,61.2817,-52.07,LED2,,,,,"/>
 <approved hash="113,1,-110.49,50.4783,LED3,,,,,"/>
 <approved hash="113,1,-107.95,45.3983,LED4,,,,,"/>
-<approved hash="113,1,-58.5353,59.3894,BAT+,,,,,"/>
-<approved hash="113,1,-58.5353,54.6125,BAT-,,,,,"/>
+<approved hash="113,1,-58.1829,58.6461,BAT,,,,,"/>
 </errors>
 </schematic>
 </drawing>
