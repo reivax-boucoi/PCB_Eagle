@@ -20590,26 +20590,26 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </net>
 <net name="LED" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB0(ICP)"/>
-<wire x1="50.8" y1="2.54" x2="55.88" y2="2.54" width="0.1524" layer="91"/>
-<label x="55.88" y="2.54" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="-40.64" x2="53.34" y2="-35.56" width="0.1524" layer="91"/>
 <label x="53.34" y="-35.56" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PD3(INT1)"/>
+<wire x1="50.8" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
+<label x="55.88" y="17.78" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LED1" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB1(OC1A)"/>
-<wire x1="50.8" y1="0" x2="55.88" y2="0" width="0.1524" layer="91"/>
-<label x="55.88" y="0" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="-40.64" x2="60.96" y2="-35.56" width="0.1524" layer="91"/>
 <label x="60.96" y="-35.56" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="PD4(XCK/T0)"/>
+<wire x1="50.8" y1="15.24" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
+<label x="55.88" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
