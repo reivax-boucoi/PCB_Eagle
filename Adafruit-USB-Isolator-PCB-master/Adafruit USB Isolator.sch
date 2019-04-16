@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -568,151 +569,6 @@
 <pad name="D-" x="-1" y="-2.1" drill="1" diameter="1.6764" rot="R270"/>
 <pad name="D+" x="1" y="-2.1" drill="1" diameter="1.6764" rot="R270"/>
 <pad name="GND" x="3.5" y="-2.1" drill="1" diameter="1.778"/>
-</package>
-<package name="FIDUCIAL-1X2.5">
-<circle x="0" y="0" radius="1.1" width="1.2" layer="29"/>
-<circle x="0" y="0" radius="1.1" width="1.2" layer="39"/>
-<circle x="0" y="0" radius="1.1" width="1.2" layer="41"/>
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-<text x="-0.508" y="-1.016" size="0.4064" layer="25">1mm</text>
-</package>
-<package name="PASS-ROUND">
-<description>&lt;b&gt;FIDUCIAL MARKER&lt;/b&gt;&lt;p&gt;
-round, layers 1 + 16 + 21 + 39 + 49</description>
-<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
-<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="49"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="49"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="49"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="49"/>
-<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="1"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="1"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="1"/>
-<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="1"/>
-<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="16"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="16"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="16"/>
-<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="16"/>
-<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="16" curve="-90" cap="flat"/>
-<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="1" curve="-90" cap="flat"/>
-<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="16" curve="90" cap="flat"/>
-<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="1" curve="90" cap="flat"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="1"/>
-<circle x="0" y="0" radius="1.27" width="0.1524" layer="16"/>
-<circle x="0" y="0" radius="2.54" width="0" layer="29"/>
-<circle x="0" y="0" radius="2.54" width="0" layer="30"/>
-</package>
-<package name="FIDUCIAL_1MM">
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
-<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="29" curve="-90"/>
-<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="29" curve="-90"/>
-<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="29" curve="-90"/>
-<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="29" curve="-90"/>
-<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="41" curve="-90"/>
-<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="41" curve="-90"/>
-<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="41" curve="-90"/>
-<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="41" curve="-90"/>
-<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="39" curve="-90"/>
-<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="39" curve="-90"/>
-<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="39" curve="-90"/>
-<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="39" curve="-90"/>
-</package>
-<package name="MOUNTINGHOLE_3.0_PLATED">
-<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
-<circle x="0" y="0" radius="3.429" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
-<pad name="P$1" x="0" y="0" drill="3" diameter="6.4516"/>
-<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
-</package>
-<package name="MOUNTINGHOLE_1.0_PLATED">
-<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
-<pad name="P$1" x="0" y="0" drill="1" diameter="3"/>
-<text x="-0.87" y="-2.74" size="0.8128" layer="48">1,0</text>
-</package>
-<package name="MOUNTINGHOLE_2.0_PLATED">
-<circle x="0" y="0" radius="1.8" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
-<pad name="P$1" x="0" y="0" drill="2.2" diameter="3"/>
-<text x="-0.87" y="-2.74" size="0.8128" layer="48">2,0</text>
-</package>
-<package name="MOUNTINGHOLE_3.0_PLATEDTHIN">
-<circle x="0" y="0" radius="2.2" width="0.2" layer="21"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
-<pad name="P$1" x="0" y="0" drill="3" diameter="3.6"/>
-</package>
-<package name="MOUNTINGHOLE_2.5_PLATED">
-<circle x="0" y="0" radius="2" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
-<pad name="P$1" x="0" y="0" drill="2.5" diameter="3.2"/>
-</package>
-<package name="MOUNTINGHOLE_2.5_PLATED_THICK">
-<circle x="0" y="0" radius="2.25" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.25" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="1.25" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="1.25" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="1.25" width="2.032" layer="42"/>
-<pad name="P$1" x="0" y="0" drill="2.5" diameter="4"/>
-</package>
-<package name="MOUNTINGHOLE_3.0_PLATED_VIAS">
-<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
-<circle x="0" y="0" radius="3.429" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
-<pad name="P$1" x="0" y="0" drill="3" diameter="6.4516"/>
-<pad name="P$2" x="0" y="2.5" drill="0.4"/>
-<pad name="P$3" x="2.5" y="0" drill="0.4"/>
-<pad name="P$4" x="0" y="-2.5" drill="0.4"/>
-<pad name="P$5" x="-2.5" y="0" drill="0.4"/>
-<pad name="P$6" x="-1.8" y="1.7" drill="0.4"/>
-<pad name="P$7" x="-1.8" y="-1.7" drill="0.4"/>
-<pad name="P$8" x="1.8" y="-1.7" drill="0.4"/>
-<pad name="P$9" x="1.8" y="1.7" drill="0.4"/>
-</package>
-<package name="MOUNTINGHOLE_3.0_PLATED_SQUAREVIAS">
-<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
-<pad name="P$1" x="0" y="0" drill="3" diameter="6.4" shape="square"/>
-<rectangle x1="-3.75" y1="-3.75" x2="3.75" y2="3.75" layer="39"/>
-<rectangle x1="-3.75" y1="-3.75" x2="3.75" y2="3.75" layer="41"/>
-<wire x1="-3.4" y1="3.4" x2="-3.4" y2="-3.4" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="-3.4" x2="3.4" y2="-3.4" width="0.127" layer="21"/>
-<wire x1="3.4" y1="-3.4" x2="3.4" y2="3.4" width="0.127" layer="21"/>
-<wire x1="3.4" y1="3.4" x2="-3.4" y2="3.4" width="0.127" layer="21"/>
-<pad name="P$2" x="-2.25" y="0" drill="0.4"/>
-<pad name="P$3" x="0" y="2.25" drill="0.4"/>
-<pad name="P$4" x="2.25" y="0" drill="0.4"/>
-<pad name="P$5" x="0" y="-2.25" drill="0.4"/>
-<pad name="P$6" x="-2.25" y="2.25" drill="0.4"/>
-<pad name="P$7" x="2.25" y="2.25" drill="0.4"/>
-<pad name="P$8" x="2.25" y="-2.25" drill="0.4"/>
-<pad name="P$9" x="-2.25" y="-2.25" drill="0.4"/>
 </package>
 <package name="USB-MINIB">
 <description>Surface Mount USB Mini-B Connector</description>
@@ -1816,15 +1672,6 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 <text x="-1.524" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="FIDUCIAL">
-<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-</symbol>
-<symbol name="MOUNTINGHOLE">
-<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="1.905" width="0.254" layer="94"/>
-</symbol>
 <symbol name="AVCC">
 <text x="-1.524" y="1.016" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="AVCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
@@ -2371,101 +2218,6 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FIDUCIAL" prefix="FID">
-<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
-&lt;p&gt;Various fiducial points for machine vision alignment.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1X2.5" package="FIDUCIAL-1X2.5">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="ROUND" package="PASS-ROUND">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="&quot;&quot;" package="FIDUCIAL_1MM">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MOUNTINGHOLE">
-<description>&lt;b&gt;Mounting Hole&lt;/b&gt;
-&lt;p&gt;For #2 screws (0.086"/2.18mm width, 0.094"/2.4mm hole) use 2.5mm&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="MOUNTINGHOLE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="3.0" package="MOUNTINGHOLE_3.0_PLATED">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="1.0" package="MOUNTINGHOLE_1.0_PLATED">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="2.0" package="MOUNTINGHOLE_2.0_PLATED">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="3.0THIN" package="MOUNTINGHOLE_3.0_PLATEDTHIN">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="2.5" package="MOUNTINGHOLE_2.5_PLATED">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="2.5_THICK" package="MOUNTINGHOLE_2.5_PLATED_THICK">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="" package="MOUNTINGHOLE_3.0_PLATED_VIAS">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="3.0SQUARE" package="MOUNTINGHOLE_3.0_PLATED_SQUAREVIAS">
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="AVCC">
 <description>&lt;b&gt;Analog VCC&lt;/b&gt;</description>
 <gates>
@@ -2767,13 +2519,6 @@ DIN A4, landscape with location and doc. field</description>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$5" library="microbuilder" deviceset="AGND" device=""/>
 <part name="U$6" library="microbuilder" deviceset="AGND" device=""/>
-<part name="FID1" library="microbuilder" deviceset="FIDUCIAL" device="&quot;&quot;"/>
-<part name="FID2" library="microbuilder" deviceset="FIDUCIAL" device="&quot;&quot;"/>
-<part name="FID3" library="microbuilder" deviceset="FIDUCIAL" device="&quot;&quot;"/>
-<part name="U$7" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5_THICK"/>
-<part name="U$8" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5_THICK"/>
-<part name="U$9" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5_THICK"/>
-<part name="U$10" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5_THICK"/>
 <part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
 <part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
 <part name="C7" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="0.1uF"/>
@@ -2801,49 +2546,138 @@ DIN A4, landscape with location and doc. field</description>
 Low speed, set SPU/SPD low</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="G$3" x="134.62" y="2.54"/>
-<instance part="U1" gate="G$1" x="129.54" y="127"/>
-<instance part="U2" gate="G$1" x="129.54" y="73.66"/>
-<instance part="C1" gate="G$1" x="101.6" y="137.16" rot="R270"/>
-<instance part="C2" gate="G$1" x="101.6" y="129.54" rot="R270"/>
-<instance part="C3" gate="G$1" x="154.94" y="137.16" rot="R270"/>
-<instance part="C4" gate="G$1" x="154.94" y="129.54" rot="R270"/>
-<instance part="R1" gate="G$1" x="104.14" y="121.92"/>
-<instance part="R2" gate="G$1" x="96.52" y="119.38"/>
-<instance part="R3" gate="G$1" x="154.94" y="121.92"/>
-<instance part="R4" gate="G$1" x="162.56" y="119.38"/>
-<instance part="X2" gate="G$1" x="185.42" y="119.38" rot="MR0"/>
-<instance part="U$1" gate="G$1" x="96.52" y="127"/>
-<instance part="U$2" gate="G$1" x="91.44" y="109.22"/>
-<instance part="U$3" gate="G$1" x="147.32" y="109.22"/>
-<instance part="U$4" gate="G$1" x="111.76" y="109.22"/>
-<instance part="U$5" gate="G$1" x="172.72" y="109.22"/>
-<instance part="U$6" gate="G$1" x="162.56" y="127"/>
-<instance part="FID1" gate="G$1" x="251.46" y="45.72"/>
-<instance part="FID2" gate="G$1" x="248.92" y="45.72"/>
-<instance part="FID3" gate="G$1" x="246.38" y="45.72"/>
-<instance part="U$7" gate="G$1" x="251.46" y="40.64"/>
-<instance part="U$8" gate="G$1" x="246.38" y="40.64"/>
-<instance part="U$9" gate="G$1" x="241.3" y="40.64"/>
-<instance part="U$10" gate="G$1" x="236.22" y="40.64"/>
-<instance part="C5" gate="G$1" x="152.4" y="81.28"/>
-<instance part="C6" gate="G$1" x="160.02" y="81.28"/>
-<instance part="C7" gate="G$1" x="152.4" y="63.5" rot="R180"/>
-<instance part="U$11" gate="G$1" x="160.02" y="50.8"/>
-<instance part="C8" gate="G$1" x="106.68" y="81.28"/>
-<instance part="C9" gate="G$1" x="99.06" y="81.28"/>
-<instance part="C10" gate="G$1" x="106.68" y="63.5" rot="R180"/>
-<instance part="U$12" gate="G$1" x="99.06" y="50.8"/>
-<instance part="U$13" gate="G$1" x="200.66" y="147.32"/>
-<instance part="P+1" gate="VCC" x="60.96" y="147.32"/>
-<instance part="X3" gate="G$1" x="76.2" y="119.38"/>
-<instance part="SW1" gate="G$1" x="193.04" y="58.42"/>
-<instance part="U$15" gate="G$1" x="200.66" y="66.04" rot="R90"/>
-<instance part="U$17" gate="G$1" x="200.66" y="55.88" rot="R90"/>
-<instance part="D1" gate="G$1" x="208.28" y="88.9"/>
-<instance part="R5" gate="G$1" x="218.44" y="88.9"/>
-<instance part="U$18" gate="G$1" x="226.06" y="83.82"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$3" x="134.62" y="2.54" smashed="yes">
+<attribute name="SHEET" x="243.84" y="5.08" size="2.54" layer="94" font="vector" ratio="10"/>
+<attribute name="DRAWING_NAME" x="167.9575" y="5.08" size="2.54" layer="94" ratio="10"/>
+<attribute name="LAST_DATE_TIME" x="167.64" y="11.43" size="2.54" layer="94" ratio="10"/>
+<attribute name="COMPANY" x="158.2738" y="31.9087" size="3.175" layer="94" ratio="18"/>
+<attribute name="DRAWN" x="137.16" y="22.86" size="1.778" layer="94"/>
+<attribute name="REV" x="248.92" y="20.955" size="3.81" layer="94" ratio="12"/>
+</instance>
+<instance part="U1" gate="G$1" x="129.54" y="127" smashed="yes">
+<attribute name="NAME" x="116.84" y="144.78" size="1.27" layer="95"/>
+<attribute name="VALUE" x="116.84" y="111.76" size="1.27" layer="96"/>
+</instance>
+<instance part="U2" gate="G$1" x="129.54" y="73.66" smashed="yes">
+<attribute name="NAME" x="116.84" y="91.44" size="1.27" layer="95"/>
+<attribute name="VALUE" x="116.84" y="58.42" size="1.27" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="101.6" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="102.85" y="139.45" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="102.85" y="134.86" size="1.27" layer="96" font="vector" align="center"/>
+</instance>
+<instance part="C2" gate="G$1" x="101.6" y="129.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="102.85" y="131.83" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="102.85" y="127.24" size="1.27" layer="96" font="vector" align="center"/>
+</instance>
+<instance part="C3" gate="G$1" x="154.94" y="137.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="156.19" y="139.45" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="156.19" y="134.86" size="1.27" layer="96" font="vector" align="center"/>
+</instance>
+<instance part="C4" gate="G$1" x="154.94" y="129.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="156.19" y="131.83" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="156.19" y="127.24" size="1.27" layer="96" font="vector" align="center"/>
+</instance>
+<instance part="R1" gate="G$1" x="104.14" y="121.92" smashed="yes">
+<attribute name="NAME" x="104.14" y="124.46" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="104.14" y="121.92" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="R2" gate="G$1" x="96.52" y="119.38" smashed="yes">
+<attribute name="NAME" x="96.52" y="121.92" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="96.52" y="119.38" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="R3" gate="G$1" x="154.94" y="121.92" smashed="yes">
+<attribute name="NAME" x="154.94" y="124.46" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="154.94" y="121.92" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="R4" gate="G$1" x="162.56" y="119.38" smashed="yes">
+<attribute name="NAME" x="162.56" y="121.92" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="162.56" y="119.38" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="X2" gate="G$1" x="185.42" y="119.38" smashed="yes" rot="MR0">
+<attribute name="NAME" x="195.58" y="128.016" size="1.27" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="195.58" y="109.22" size="1.27" layer="96" rot="MR0"/>
+</instance>
+<instance part="U$1" gate="G$1" x="96.52" y="127" smashed="yes">
+<attribute name="VALUE" x="94.996" y="124.46" size="1.27" layer="96"/>
+</instance>
+<instance part="U$2" gate="G$1" x="91.44" y="109.22" smashed="yes">
+<attribute name="VALUE" x="89.916" y="106.68" size="1.27" layer="96"/>
+</instance>
+<instance part="U$3" gate="G$1" x="147.32" y="109.22" smashed="yes">
+<attribute name="VALUE" x="145.796" y="106.68" size="1.27" layer="96"/>
+</instance>
+<instance part="U$4" gate="G$1" x="111.76" y="109.22" smashed="yes">
+<attribute name="VALUE" x="110.236" y="106.68" size="1.27" layer="96"/>
+</instance>
+<instance part="U$5" gate="G$1" x="172.72" y="109.22" smashed="yes">
+<attribute name="VALUE" x="171.196" y="106.68" size="1.27" layer="96"/>
+</instance>
+<instance part="U$6" gate="G$1" x="162.56" y="127" smashed="yes">
+<attribute name="VALUE" x="161.036" y="124.46" size="1.27" layer="96"/>
+</instance>
+<instance part="C5" gate="G$1" x="152.4" y="81.28" smashed="yes">
+<attribute name="NAME" x="150.11" y="82.53" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="154.7" y="82.53" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
+</instance>
+<instance part="C6" gate="G$1" x="160.02" y="81.28" smashed="yes">
+<attribute name="NAME" x="157.73" y="82.53" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="162.32" y="82.53" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
+</instance>
+<instance part="C7" gate="G$1" x="152.4" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="154.69" y="62.25" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
+<attribute name="VALUE" x="150.1" y="62.25" size="1.27" layer="96" font="vector" rot="R270" align="center"/>
+</instance>
+<instance part="U$11" gate="G$1" x="160.02" y="50.8" smashed="yes">
+<attribute name="VALUE" x="158.496" y="48.26" size="1.27" layer="96"/>
+</instance>
+<instance part="C8" gate="G$1" x="106.68" y="81.28" smashed="yes">
+<attribute name="NAME" x="104.39" y="82.53" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="108.98" y="82.53" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
+</instance>
+<instance part="C9" gate="G$1" x="99.06" y="81.28" smashed="yes">
+<attribute name="NAME" x="96.77" y="82.53" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="101.36" y="82.53" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
+</instance>
+<instance part="C10" gate="G$1" x="106.68" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="108.97" y="62.25" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
+<attribute name="VALUE" x="104.38" y="62.25" size="1.27" layer="96" font="vector" rot="R270" align="center"/>
+</instance>
+<instance part="U$12" gate="G$1" x="99.06" y="50.8" smashed="yes">
+<attribute name="VALUE" x="97.536" y="48.26" size="1.27" layer="96"/>
+</instance>
+<instance part="U$13" gate="G$1" x="200.66" y="147.32" smashed="yes">
+<attribute name="VALUE" x="199.136" y="148.336" size="1.27" layer="96"/>
+</instance>
+<instance part="P+1" gate="VCC" x="60.96" y="147.32" smashed="yes">
+<attribute name="VALUE" x="59.436" y="148.336" size="1.27" layer="96"/>
+</instance>
+<instance part="X3" gate="G$1" x="76.2" y="119.38" smashed="yes">
+<attribute name="NAME" x="66.04" y="128.016" size="1.27" layer="95"/>
+<attribute name="VALUE" x="66.04" y="109.22" size="1.27" layer="96"/>
+</instance>
+<instance part="SW1" gate="G$1" x="193.04" y="58.42" smashed="yes">
+<attribute name="VALUE" x="187.96" y="46.99" size="1.27" layer="96"/>
+<attribute name="NAME" x="188.595" y="67.31" size="1.27" layer="95"/>
+</instance>
+<instance part="U$15" gate="G$1" x="200.66" y="66.04" smashed="yes" rot="R90">
+<attribute name="VALUE" x="203.2" y="64.516" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="U$17" gate="G$1" x="200.66" y="55.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="203.2" y="54.356" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="D1" gate="G$1" x="208.28" y="88.9" smashed="yes">
+<attribute name="NAME" x="207.01" y="93.345" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="207.01" y="86.106" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="R5" gate="G$1" x="218.44" y="88.9" smashed="yes">
+<attribute name="NAME" x="218.44" y="91.44" size="1.27" layer="95" font="vector" align="center"/>
+<attribute name="VALUE" x="218.44" y="88.9" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="U$18" gate="G$1" x="226.06" y="83.82" smashed="yes">
+<attribute name="VALUE" x="224.536" y="81.28" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
