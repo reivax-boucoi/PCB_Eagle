@@ -1,27 +1,27 @@
 Partlist exported from /media/user/Data/Documents/Eagle_7/50Wled/main.sch at 22/05/2019 23:08
 
-Qty Value       Device             Package            Parts                   Description                                                             
-2               2,54/1,0           2,54/1,0           L, N                    THROUGH-HOLE PAD                                                        
-1               B57164             B57164             R4                      SIEMENS NTC                                                             
-1               LED3MM             LED3MM             LED1                    LED                                                                     
-1               MOSFET-NGDS_TO220V TO220V             Q1                      N-Channel Mosfet                                                        
-2               MOSFET-NREFLOW     SOT23              Q2, Q3                  N-Channel Mosfet                                                        
-3               PINHD-1X2          1X02               JFAN, JLED, JTHERMISTOR PIN HEADER                                                              
-1               SH22,5A            SH22,5A            F1                      FUSE HOLDER grid 22,5mm, isolated cap OGN0031 8201, Schurter (Buerklin) 
-3               TRIM_EU-B64Y       B64Y               PFAN, PLD, PLIM         POTENTIOMETER                                                           
-1   .27         R-US_0207/7        0207/7             R3                      RESISTOR, American symbol                                               
-1   100k        R-US_R0603         R0603              R1                      RESISTOR, American symbol                                               
-4   100n        C-USC0603          C0603              C2, C5, C6, C8          CAPACITOR, American symbol                                              
-2   100u        CPOL-USE3.5-8      E3,5-8             C4, C7                  POLARIZED CAPACITOR, American symbol                                    
-1   10k         R-US_R0603         R0603              R6                      RESISTOR, American symbol                                               
-1   3.3m        3.3MH              3.3MH              U$1                                                                                             
-1   3k          R-US_0204/5        0204/5             R2                      RESISTOR, American symbol                                               
-1   68u         CPOL-USE7.5-16     E7,5-16            C3                      POLARIZED CAPACITOR, American symbol                                    
-1   7812TV      7812TV             TO220V             IC2                     Positive VOLTAGE REGULATOR                                              
-1   BA221       BA221              DO35-10            D1                      DIODE                                                                   
-1   G5J_BRIDGE  G5J_BRIDGE         G5J_BRIDGE         U$4                                                                                             
-1   GAL3515EG   GAL3515EG          GAL3515E           U$3                                                                                             
-1   GBL406.     GBL406.            GBL406             U$2                                                                                             
-1   HV9910BLG   HV9910BLG          SOIC-08LG          IC1                     Universal High Brightness LED Driver                                    
-1   MCP602-I/SN MCP602-I/SN        SOIC127P600X175-8N U$5                     CMOS Op Amp                                                             
-4   inf         R-US_R0805         R0805              R5, R7, R8, R9          RESISTOR, American symbol                                               
+Got Qty Value       Device             Package            Parts                   Description                                                             
+0    2               2,54/1,0           2,54/1,0           L, N                    THROUGH-HOLE PAD                                                        
+    1               B57164             B57164             R4                      SIEMENS NTC                                                             
+    1               LED3MM             LED3MM             LED1                    LED                                                                     
+1    1               MOSFET-NGDS_TO220V TO220V             Q1                      N-Channel Mosfet                                                        
+2    2               MOSFET-NREFLOW     SOT23              Q2, Q3                  N-Channel Mosfet                                                        
+    3               PINHD-1X2          1X02               JFAN, JLED, JTHERMISTOR PIN HEADER                                                              
+1    1               SH22,5A            SH22,5A            F1                      FUSE HOLDER grid 22,5mm, isolated cap OGN0031 8201, Schurter (Buerklin) 
+    3               TRIM_EU-B64Y       B64Y               PFAN, PLD, PLIM         POTENTIOMETER                                                           
+    1   .27         R-US_0207/7        0207/7             R3                      RESISTOR, American symbol                                               
+    1   100k        R-US_R0603         R0603              R1                      RESISTOR, American symbol                                               
+    4   100n        C-USC0603          C0603              C2, C5, C6, C8          CAPACITOR, American symbol                                              
+2    2   100u        CPOL-USE3.5-8      E3,5-8             C4, C7                  POLARIZED CAPACITOR, American symbol                                    
+    1   10k         R-US_R0603         R0603              R6                      RESISTOR, American symbol                                               
+1    1   3.3m        3.3MH              3.3MH              U$1                                                                                             
+    1   3k(tocheck) R-US_0204/5        0204/5             R2                      RESISTOR, American symbol                                               
+1    1   68u         CPOL-USE7.5-16     E7,5-16            C3                      POLARIZED CAPACITOR, American symbol                                    
+1    1   7812TV      7812TV             TO220V             IC2                     Positive VOLTAGE REGULATOR                                              
+1    1   BA221       BA221              DO35-10            D1                      DIODE                                                                   
+1    1   G5J_BRIDGE  G5J_BRIDGE         G5J_BRIDGE         U$4                                                                                             
+1    1   GAL3515EG   GAL3515EG          GAL3515E           U$3                                                                                             
+1    1   GBL406.     GBL406.            GBL406             U$2                                                                                             
+    1   HV9910BLG   HV9910BLG          SOIC-08LG          IC1                     Universal High Brightness LED Driver                                    
+    1   MCP602-I/SN MCP602-I/SN        SOIC127P600X175-8N U$5                     CMOS Op Amp                                                             
+    4   inf         R-US_R0805         R0805              R5, R7, R8, R9          RESISTOR, American symbol                                               
