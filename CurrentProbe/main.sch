@@ -24392,6 +24392,7 @@ Source: www.cypressindustries.com</description>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1" value="v+"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1" value="v-"/>
 <part name="X2" library="con-cypressindustries" library_urn="urn:adsk.eagle:library:138" deviceset="MINI-USB_SHIELD5P4-" device="32005-400" package3d_urn="urn:adsk.eagle:package:6462/1"/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24454,11 +24455,11 @@ Source: www.cypressindustries.com</description>
 <attribute name="NAME" x="64.516" y="81.915" size="1.778" layer="95"/>
 <attribute name="VALUE" x="64.516" y="77.089" size="1.778" layer="96"/>
 </instance>
-<instance part="P+4" gate="VCC" x="40.64" y="50.8" smashed="yes">
-<attribute name="VALUE" x="38.1" y="48.26" size="1.778" layer="96" rot="R90"/>
+<instance part="P+4" gate="VCC" x="7.62" y="50.8" smashed="yes">
+<attribute name="VALUE" x="5.08" y="48.26" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND2" gate="1" x="40.64" y="35.56" smashed="yes">
-<attribute name="VALUE" x="38.1" y="33.02" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="7.62" y="35.56" smashed="yes">
+<attribute name="VALUE" x="5.08" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="1" x="60.96" y="27.94" smashed="yes">
 <attribute name="VALUE" x="58.42" y="25.4" size="1.778" layer="96"/>
@@ -24511,9 +24512,15 @@ Source: www.cypressindustries.com</description>
 <attribute name="NAME" x="59.944" y="1.778" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="59.944" y="-3.048" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="X2" gate="G$1" x="22.86" y="43.18" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.4" y="31.75" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="12.7" y="50.8" size="1.778" layer="96" rot="R270"/>
+<instance part="X2" gate="G$1" x="20.32" y="43.18" smashed="yes">
+<attribute name="NAME" x="17.78" y="54.61" size="1.778" layer="95"/>
+<attribute name="VALUE" x="30.48" y="35.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="X2" gate="S" x="17.78" y="25.4" smashed="yes">
+<attribute name="NAME" x="25.4" y="22.86" size="1.778" layer="95"/>
+</instance>
+<instance part="GND9" gate="1" x="17.78" y="17.78" smashed="yes">
+<attribute name="VALUE" x="15.24" y="15.24" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -24521,8 +24528,9 @@ Source: www.cypressindustries.com</description>
 <nets>
 <net name="VCC" class="0">
 <segment>
-<wire x1="35.56" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
+<pinref part="X2" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
@@ -24551,8 +24559,9 @@ Source: www.cypressindustries.com</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="35.56" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="X2" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="GND"/>
@@ -24590,6 +24599,22 @@ Source: www.cypressindustries.com</description>
 <segment>
 <pinref part="C3" gate="G$1" pin="-"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X2" gate="S" pin="S1"/>
+<wire x1="15.24" y1="22.86" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="X2" gate="S" pin="S2"/>
+<wire x1="15.24" y1="20.32" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="20.32" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="X2" gate="S" pin="S3"/>
+<wire x1="17.78" y1="20.32" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="20.32" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
+<junction x="17.78" y="20.32"/>
+<pinref part="X2" gate="S" pin="S4"/>
+<wire x1="20.32" y1="20.32" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="20.32" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
+<junction x="20.32" y="20.32"/>
+<pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="V+" class="0">
