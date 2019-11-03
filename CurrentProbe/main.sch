@@ -24454,8 +24454,8 @@ BANANA_CONN
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="10m"/>
-<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1" value="v+"/>
+<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1" value="v-"/>
 </parts>
 <sheets>
 <sheet>
@@ -24760,6 +24760,12 @@ BANANA_CONN
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,35.56,48.26,CN1,VBUS,VCC,,,"/>
+<approved hash="104,1,73.66,55.88,U1,V+_2,+5V,,,"/>
+<approved hash="104,1,73.66,53.34,U1,V+,+5V,,,"/>
+<approved hash="202,1,73.66,43.18,U1,~SHDN,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
