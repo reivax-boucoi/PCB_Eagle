@@ -92,6 +92,8 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -24325,6 +24327,91 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="BANANA_CONN" urn="urn:adsk.eagle:footprint:37619/1" library_version="1">
+<description>&lt;h3&gt;Banana Plug PTH&lt;/h3&gt;
+0.2" diameter pad, 0.1" hole. 
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;BANANA_CONN&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<circle x="0" y="0" radius="2.8398" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="0" drill="3.81" diameter="5.461"/>
+<text x="-2.54" y="3.302" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-2.54" y="-3.937" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="BANANA_CONN" urn="urn:adsk.eagle:package:38018/1" type="box" library_version="1">
+<description>Banana Plug PTH
+0.2" diameter pad, 0.1" hole. 
+Specifications:
+Pin count: 1
+
+Example device(s):
+BANANA_CONN
+</description>
+<packageinstances>
+<packageinstance name="BANANA_CONN"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="BANANA_CONN" urn="urn:adsk.eagle:symbol:37618/1" library_version="1">
+<description>&lt;h3&gt;Through-hole Banana Jack&lt;/h3&gt;
+&lt;p&gt;Basic PTH connection for banana jack plugs&lt;/p&gt;</description>
+<circle x="0" y="0" radius="1.2951" width="0.254" layer="94"/>
+<text x="-1.016" y="1.778" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-3.048" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BANANA_CONN" urn="urn:adsk.eagle:component:38313/1" prefix="J" uservalue="yes" library_version="1">
+<description>&lt;h3&gt;Through-hole Banana Jack&lt;/h3&gt;
+&lt;p&gt;Basic PTH connection for banana jack plugs&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/10956"&gt;Multimeter Kit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/509"&gt;Banana to Alligator Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/508"&gt;Banana to Alligator Coax Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/507"&gt;Banana to Banana Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/506"&gt;Banana to IC Hook Cables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BANANA_CONN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="BANANA_CONN">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38018/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -24367,6 +24454,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="10m"/>
+<part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -24482,6 +24571,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="NAME" x="39.37" y="1.4986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.37" y="-3.302" size="1.778" layer="96"/>
 </instance>
+<instance part="J1" gate="G$1" x="27.94" y="0" smashed="yes" rot="R180">
+<attribute name="NAME" x="28.956" y="-1.778" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="28.956" y="3.048" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="J2" gate="G$1" x="60.96" y="0" smashed="yes">
+<attribute name="NAME" x="59.944" y="1.778" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="59.944" y="-3.048" size="1.778" layer="96" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -24571,6 +24668,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="P+1" gate="1" pin="V+"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="5.08" x2="38.1" y2="0" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="0" x2="38.1" y2="0" width="0.1524" layer="91"/>
+<junction x="38.1" y="0"/>
 </segment>
 </net>
 <net name="REF" class="0">
@@ -24600,6 +24700,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="P-1" gate="1" pin="V-"/>
 <wire x1="48.26" y1="0" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="0" x2="58.42" y2="0" width="0.1524" layer="91"/>
+<junction x="48.26" y="0"/>
 </segment>
 </net>
 <net name="OUT" class="0">
