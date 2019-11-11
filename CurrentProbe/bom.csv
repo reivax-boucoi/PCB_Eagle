@@ -1,0 +1,16 @@
+"Part";"Value";"Device";"Package";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"PACKAGE";"POPULARITY";"SPICEPREFIX";"SUPPLIER";
+"C1";"100n";"C-USC0805";"C0805";"CAPACITOR, American symbol";"";"";"";"";"";"63";"C";"";
+"C2";"100n";"C-USC0805";"C0805";"CAPACITOR, American symbol";"";"";"";"";"";"63";"C";"";
+"C3";"10u";"CPOL-USE2-5";"E2-5";"POLARIZED CAPACITOR, American symbol";"";"";"";"";"";"7";"C";"";
+"C4";"100n";"C-USC0805";"C0805";"CAPACITOR, American symbol";"";"";"";"";"";"63";"C";"";
+"FB1";"0";"R-US_0204/7";"0204/7";"RESISTOR, American symbol";"";"";"";"";"";"48";"R";"";
+"J1";"v+";"BANANA_CONN";"BANANA_CONN";"Through-hole Banana Jack";"";"";"";"";"";"";"";"";
+"J2";"v-";"BANANA_CONN";"BANANA_CONN";"Through-hole Banana Jack";"";"";"";"";"";"";"";"";
+"JP2";"PWR";"PINHD-1X2";"1X02";"PIN HEADER";"";"";"";"";"";"98";"";"";
+"JP3";"refSet";"PINHD-1X3";"1X03";"PIN HEADER";"";"";"";"";"";"92";"";"";
+"LED1";"yellow";"LEDCHIP-LED0603";"CHIP-LED0603";"LED";"";"";"";"";"";"26";"";"";
+"R1";"10m";"R-US_R2512";"R2512";"RESISTOR, American symbol";"";"";"";"";"";"";"";"";
+"R2";"470";"R-US_R0603";"R0603";"RESISTOR, American symbol";"";"";"";"";"";"77";"R";"";
+"U1";"LT1999CS8-50PBF";"LT1999CS8-50PBF";"SOIC127P600X175-8N";"High Voltage, Bidirectional Current Sense Amplifier";"";"LT1999CS8-50#PBF";"1868097";"24T0472";"SOIC-8";"";"";"LINEAR TECHNOLOGY";
+"X1";"SMA-142-0701-801/806";"SMA-142-0701-801/806";"J502-ND-142-0701-801/806";"SMA 50 Ohm End Launch Jack Receptacle - Round Contact";"JOHNSON COMPONENTS";"142-0701-801";"1608592";"90F2624";"";"5";"";"";
+"X2";"MINI-USB_SHIELD5P4-32005-400";"MINI-USB_SHIELD5P4-32005-400";"32005-400";"MINI USB-B R/A W/O POST 5 pol.";"";"";"unknown";"unknown";"";"0";"";"";
