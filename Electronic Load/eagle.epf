@@ -646,6 +646,7 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -289.647 -157.572 275.288 80.5766"
 Sheet="1"
 
 [Win_2]
@@ -697,7 +698,7 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="2646 1024"
+Screen="1366 768"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
